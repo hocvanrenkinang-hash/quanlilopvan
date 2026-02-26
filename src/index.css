@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Times New Roman", Times, serif;
+}
+
+.report-container {
+  font-family: var(--font-serif);
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20mm;
+  background-color: white;
+  color: black;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.report-title {
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
